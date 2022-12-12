@@ -21,9 +21,6 @@ const tasks = [
 ];
 
 function App() {
-  const [workspaceId, setWorkspaceId] = useState(
-    localStorage.getItem("workspaceId") || "12345678-aaaa-bbbb-cccc-987654321000"
-  );
   const [taskName, setTaskName] = useState("");
 
   useEffect(() => {
